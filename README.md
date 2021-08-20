@@ -18,4 +18,19 @@ There is an environment.yml (conda) file to create your conda environment with a
   - scikit-learn
   - matplotlib
   - tensorflow=2.3.0
-  
+
+### Base Path
+If you want to run this notebook on your local machine you need to configure the base path in the first cell of the notebook (were alls the imports are made):
+
+```python
+# change your local path here
+if kaggle == 1 :
+    MNIST_PATH= '../input/digit-recognizer'
+else:
+    MNIST_PATH= '../Digit_Recognition_with_a_Deep_Neural_Network/data/input/digit-recognizer'
+```
+
+As you can see there is a switch to change the base path if you want to run it on Kaggle or local. 1 = Kaggle / 0 = local.
+
+### Tensorboard
+By installing Tensorflow, the tensorboard should be installed as well.
