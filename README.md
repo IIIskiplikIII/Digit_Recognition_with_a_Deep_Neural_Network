@@ -1,4 +1,4 @@
-# Digit-Recognition-with-a-Deep-Neural-Network (IN EDIT MODE)
+# Digit-Recognition-with-a-Deep-Neural-Network
 This project is based on the Digit Recognizer competition on Kaggle, found here: https://www.kaggle.com/c/digit-recognizer/data.
 To sum it up in a nutshell, it is about predicting the correct handwritten digit based on its image pixels. The dataset is the famous MNIST-dataset by Yann LeCun at al. (http://yann.lecun.com/exdb/mnist/). 
 <br>
